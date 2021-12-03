@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div id="root">
     <h1>{{titleMessage}}</h1>
+    <div class="img_container">
+        <img :src="imageSrc" alt="" class="small_img">
+    </div>
 </div>
 
 

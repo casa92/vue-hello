@@ -8,7 +8,8 @@ const app = new Vue(
     {
         el: '#root',
         data: {
-            titleMessage: 'Ciao, io sono scritto con Vue!'
+            titleMessage: 'Ciao, io sono scritto con Vue!',
+            imageSrc: 'img/playstation-5-thumb.png'
         }
     }
 );
